@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NMMS.Common.Application\NMMS.Common.Application.csproj" />
+    <ProjectReference Include="..\NMMS.Common.FileManager\NMMS.Common.FileManager.csproj" />
+    <ProjectReference Include="..\NMMS.Common\NMMS.Common.csproj" />
+    <ProjectReference Include="..\NMMS.Domain\NMMS.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
